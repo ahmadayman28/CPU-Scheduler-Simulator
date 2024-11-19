@@ -50,8 +50,9 @@ A Java-based simulation tool for CPU scheduling algorithms, implementing core co
 
 ---
 
-## Package Structure
-```plaintext
+Package Structure
+-----------------
+
 src/
 ├── model/
 │   └── Process.java           # Represents a process in the system.
@@ -65,7 +66,8 @@ src/
 │   ├── Simulator.java         # Core simulation logic.
 │   ├── SimulationMode.java    # Enum for preemptive/non-preemptive modes.
 ├── ui/
-│   └── SimulatorUI.java               # UI for user interaction.
+│   └── SimulatorUI.java       # UI for user interaction.
+    
 
 How to Use
 ----------
