@@ -50,9 +50,9 @@ A Java-based simulation tool for CPU scheduling algorithms, implementing core co
 
 ---
 
-Package Structure
------------------
 
+## Package Structure
+```plaintext
 src/
 ├── model/
 │   └── Process.java           # Represents a process in the system.
@@ -67,37 +67,7 @@ src/
 │   ├── SimulationMode.java    # Enum for preemptive/non-preemptive modes.
 ├── ui/
 │   └── SimulatorUI.java       # UI for user interaction.
-    
-
-How to Use
-----------
-
-### Clone the Repository:
-
-git clone https://github.com/yourusername/cpu-scheduler-simulator.git
-cd cpu-scheduler-simulator
-    
-
-### Compile the Code:
-
-javac src/\*\*/\*.java -d out
-    
-
-### Run the Simulator:
-
-java -cp out ui.CLI
-    
-
-### Select Options:
-
-*   Choose a scheduling algorithm.
-*   Add processes with attributes like arrival time, burst time, and priority.
-*   Observe the simulation outputs.
-
-Example Execution
------------------
-
-### Input:
+```
 
 Contributions
 -------------
